@@ -1,4 +1,5 @@
 # Apache Cassandra Cluster with Docker Compose
+
 [![Docker](https://img.shields.io/badge/Docker-Required-blue.svg)](https://www.docker.com/)
 [![Cassandra](https://img.shields.io/badge/Cassandra-4.1-yellow.svg)](https://cassandra.apache.org/)
 
@@ -53,7 +54,6 @@ Persistent storage for each node:
 - `cassandra1_data`
 - `cassandra2_data`
 - `cassandra3_data`
-
 
 ## 🌐 Networking
 
