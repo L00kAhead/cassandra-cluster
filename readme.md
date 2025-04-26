@@ -78,7 +78,23 @@ docker-compose up -d
 docker exec -it cassandra1 cqlsh
 ```
 
-### 3. Stop and Clean Up
+### 3. Test the Cluster Connection
+
+After the cluster is up, run the provided test script to verify node connectivity and cluster health.
+
+```bash
+chmod +x test.sh
+./test.sh
+```
+
+The test.sh script will:
+
+- Check if each Cassandra node is reachable.
+- Verify the nodes are properly connected within the cluster.
+
+✅ If everything is fine, you will see success messages for each node!
+
+### 4. Stop and Clean Up
 
 ```bash
 docker-compose down -v
